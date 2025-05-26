@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Portfolio Website",
+    "description": "My personal portfolio built with Next.js and Tailwind CSS",
+    "tech": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
+    "imageUrls": ["/images/mp1.png", "/images/mp2.png", "/images/mp3.png", "/images/mp4.png"],
+    "liveUrl": "https://yourportfolio.vercel.app"
+  },
+  {
+    "title": "Rice Pest Identifier and Pest Control Recommender System using Machine Learning",
+    "description": "A group thesis about a machine learning system to identify rice pests and recommend control measures",
+    "tech": ["Python", "Tailwind CSS", "PysonDB", "Flask", "TensorFlow", "Keras", "RESNET50"],
+    "imageUrls": ["/images/rp1.png", "/images/rp2.png", "/images/rp3.png", "/images/rp4.png", "/images/rp5.png"]
+  },
+  {
+    "title": "Angeles City CSWDO CMS Website",
+    "description": "Productivity app with drag-and-drop functionality",
+    "tech": ["C#", "php", "HTML", "CSS", "JavaScript", "MySQL"],
+    "githubUrl": "",
+    "imageUrls": ["/images/c1.png", "/images/c2.png", "/images/c3.png", "/images/c4.png"], 
+    "liveUrl": "https://angelescitycms.org"
+  },
+  {
+    "title": "Financial Report Dashboard",
+    "description": "A dashboard for financial reports with data visualization",
+    "tech": ["Power BI", "Excel"],
+    "imageUrls": ["/images/frd.png"]
+  },
+  {
+    "title": "COVID 19 Dashboard",
+    "description": "A dashboard for tracking COVID-19 statistics",
+    "tech": ["SAP Analytics Cloud", "Excel"],
+    "imageUrls": ["/images/cvd.png"]
+  }
+
+]
