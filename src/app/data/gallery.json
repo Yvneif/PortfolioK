@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "ASEAN Data Science Explorers 2025 Enablement Session - SAP Analytics Cloud",
+    "type": "certificate",
+    "description": "Participation in the ASEAN Data Science Explorers 2025 Enablement Session, focusing on SAP Analytics Cloud",
+    "image": "/images/certificates/ASDS.png",
+    "date": "2025",
+    "institution": "Online Platform",
+    "tags": ["Data Analytics", "SAP", "Cloud Computing"]
+  },
+  {
+    "id": 2,
+    "title": "Introduction to Data Science: Roles and Basic MySQL Skills",
+    "type": "certificate",
+    "description": "Completion of the Introduction to Data Science course, covering roles in data science and basic MySQL skills",
+    "image": "/images/certificates/DICT.png",
+    "date": "2025",
+    "institution": "DICT Region 3",
+    "tags": ["Data Analysis", "Statistics", "MySQL"]
+  },
+  {
+    "id": 3,
+    "title": "Fundamentals of Statistics with Microsoft Excel",
+    "type": "certificate",
+    "description": "Completion of the Fundamentals of Statistics course using Microsoft Excel, focusing on statistical analysis techniques",
+    "image": "/images/certificates/DSAE.png",
+    "date": "2025",
+    "institution": "Data Analytics Philippines",
+    "tags": ["Statistics", "Excel", "Data Analysis"]  
+  },
+  {
+    "id": 4,
+    "title": "Business Intelligence with Power BI Desktop (Zero to Low Code Dashboard)",
+    "type": "certificate",
+    "description": "Completion of the Business Intelligence course using Power BI Desktop, focusing on creating dashboards with minimal coding",
+    "image": "/images/certificates/DSAPB.png",
+    "date": "2025",
+    "event": "DataSense Analytics Philippines",
+    "tags": ["Business Intelligence", "Power BI", "Dashboard", "Excel", "Data Visualization"]
+  },
+  {
+    "id": 5,
+    "title": "Kaggle: Intro to SQL",
+    "type": "certificate",
+    "description": "Completion of the Kaggle Intro to SQL course, covering basic SQL queries and database management",
+    "image": "/images/certificates/KISQL.png",
+    "date": "2025",
+    "event": "Kaggle",
+    "tags": ["Academic Excellence", "Recognition"]
+  },
+  {
+    "id": 6,
+    "title": "DataCamp: Introduction to SQL",
+    "type": "accomplishment",
+    "description": "Completed the Introduction to SQL course on DataCamp, focusing on basic SQL queries and database management",
+    "image": "/images/accomplishments/DCSQL.png",
+    "date": "2025",
+    "event": "DataCamp",
+    "tags": ["SQL", "Database", "Data Management", "DataCamp"]
+  },
+  {
+    "id": 7,
+    "title": "DataCamp: Introduction to Python",
+    "type": "accomplishment",
+    "description": "Completed the Introduction to Python course on DataCamp, focusing on basic Python programming and data analysis",
+    "image": "/images/accomplishments/DCIP.png",
+    "date": "2025",
+    "event": "DataCamp",
+    "tags": ["Python", "Programming", "Data Analysis", "DataCamp"]
+  },
+  {
+    "id": 8,
+    "title": "DataCamp: Intermediate Python",
+    "type": "accomplishment",
+    "description": "Completed the Intermediate Python course on DataCamp, focusing on advanced Python programming techniques and data manipulation",
+    "image": "/images/accomplishments/DCINTERP.png",
+    "date": "2025",
+    "institution": "DataCamp",
+    "tags": ["Python", "Programming", "Data Manipulation", "DataCamp"]
+  },
+  {
+    "id": 9,
+    "title": "Cisco Asia-Pacific Japan and China Netriders Participant",
+    "type": "experience",
+    "description": "Participated in the Cisco Asia-Pacific Japan and China Netriders competition, showcasing networking skills and knowledge",
+    "image": "/images/experiences/CISCOAPJC.jpg",
+    "date": "2024",
+    "institution": "Cisco",
+    "tags": ["Networking", "Cisco", "Competition"]
+  }
+]
