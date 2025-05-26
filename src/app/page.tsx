@@ -3,7 +3,6 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { FiX, FiPhone, FiMail, FiLinkedin, FiCopy, FiZoomIn, FiExternalLink, FiEye, FiGithub, FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import Image from 'next/image';
-import ProjectCard from './components/ProjectCard';
 import SkillsSection from './components/SkillsSection';
 import projects from './data/projects.json';
 import galleryItems from './data/gallery.json';
@@ -149,13 +148,13 @@ const copyToClipboard = (text: string, type: string) => {
                   <div className="absolute -left-4 top-0 w-1 h-full bg-white"></div>
                   <div className="space-y-6 text-lg leading-relaxed font-light">
                     <p>
-                     I'm a dedicated Computer Science major with a strong foundation in programming, data analytics, and problem-solving. Known for my adaptability and eagerness to learn, I thrive in dynamic environments where I can grow both technically and personally.
+                     I&apos;m a dedicated Computer Science major with a strong foundation in programming, data analytics, and problem-solving. Known for my adaptability and eagerness to learn, I thrive in dynamic environments where I can grow both technically and personally.
                     </p>
                     <p>
-                     My journey in tech is fueled by a deep curiosity about how data shapes the world and how innovative solutions can improve everyday life. Whether I'm debugging code, analyzing datasets, or collaborating on projects, I aim to build skills that make a real impact.
+                     My journey in tech is fueled by a deep curiosity about how data shapes the world and how innovative solutions can improve everyday life. Whether I&apos;m debugging code, analyzing datasets, or collaborating on projects, I aim to build skills that make a real impact.
                     </p>
                     <p>
-                      I'm actively seeking opportunities to gain hands-on experience, sharpen my technical expertise, and develop the interpersonal skills needed to succeed in the fast-paced IT industry.
+                      I&apos;m actively seeking opportunities to gain hands-on experience, sharpen my technical expertise, and develop the interpersonal skills needed to succeed in the fast-paced IT industry.
                     </p>
                   </div>
                 </div>
@@ -794,10 +793,10 @@ const copyToClipboard = (text: string, type: string) => {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl md:text-4xl font-black mb-8 tracking-tight">
-              LET'S CONNECT
+              LET&apos;S CONNECT
             </h2>
             <p className="text-xl font-light mb-12 max-w-2xl mx-auto">
-              Ready to turn data into insights? Let's build something amazing together.
+              Ready to turn data into insights? Let&apos;s build something amazing together.
             </p>
             
             <motion.div
