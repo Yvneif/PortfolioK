@@ -22,11 +22,17 @@ export default function Home() {
 
   const resumeUrl = "https://drive.google.com/file/d/1T52UWOsg0YNkx2TVjDOR3M3knPbEjp0X/view?usp=sharing";
 
-  const copyToClipboard = (text, type) => {
-    navigator.clipboard.writeText(text);
-    setCopiedText(type);
-    setTimeout(() => setCopiedText(''), 2000);
-  };
+ const copyToClipboard = (text: string, type: string): void => {
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      setCopiedText(type);
+      setTimeout(() => setCopiedText(''), 2000);
+    })
+    .catch(err => {
+      console.error('Failed to copy!', err);
+    });
+};
+
 
   const handleResumeClick = () => {
     window.open(resumeUrl, '_blank');
@@ -341,7 +347,7 @@ export default function Home() {
                     
                     {/* Tech Stack */}
                     <div className="flex flex-wrap gap-2 mb-4">
-                      {project.tech.slice(0, 4).map((tech, techIndex) => (
+                      {project.tech.slice(0, 4).map((tech) => (
                         <span 
                           key={tech}
                           className="text-xs font-bold bg-black text-white px-2 py-1 tracking-wide uppercase"
@@ -547,7 +553,7 @@ export default function Home() {
                   <div>
                     <h5 className="font-bold text-lg mb-3">Technologies Used</h5>
                     <div className="flex flex-wrap gap-2">
-                      {selectedProject.tech.map((tech, index) => (
+                      {selectedProject.tech.map((tech) => (
                         <span 
                           key={tech}
                           className="text-sm font-bold bg-black text-white px-3 py-1 tracking-wide uppercase"
