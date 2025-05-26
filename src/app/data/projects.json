@@ -3,8 +3,7 @@
     "title": "Portfolio Website",
     "description": "My personal portfolio built with Next.js and Tailwind CSS",
     "tech": ["Next.js", "TypeScript", "Tailwind CSS", "React"],
-    "imageUrls": ["/images/mp1.png", "/images/mp2.png", "/images/mp3.png", "/images/mp4.png"],
-    "liveUrl": "https://yourportfolio.vercel.app"
+    "imageUrls": ["/images/mp1.png", "/images/mp2.png", "/images/mp3.png", "/images/mp4.png"]
   },
   {
     "title": "Rice Pest Identifier and Pest Control Recommender System using Machine Learning",
