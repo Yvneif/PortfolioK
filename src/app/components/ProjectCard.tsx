@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import { FiGithub, FiExternalLink, FiChevronLeft, FiChevronRight, FiEye } from 'react-icons/fi';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 interface Project {
   title: string;
