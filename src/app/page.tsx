@@ -31,7 +31,7 @@ export default function Home() {
     linkedin: "www.linkedin.com/in/mike-kenneth-rivera"
   };
 
-  const resumeUrl = "https://drive.google.com/file/d/1T52UWOsg0YNkx2TVjDOR3M3knPbEjp0X/view?usp=sharing";
+  const resumeUrl = "https://drive.google.com/file/d/15nRZfk7qveE-0ea-P0ln0hQUcB2ovUvM/view?usp=sharing";
 
  const copyToClipboard = (text: string, type: string): void => {
   navigator.clipboard.writeText(text)
