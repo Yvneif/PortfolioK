@@ -22,7 +22,7 @@ export default function Home() {
 
   const resumeUrl = "https://drive.google.com/file/d/1T52UWOsg0YNkx2TVjDOR3M3knPbEjp0X/view?usp=sharing";
 
-const copyToClipboard = (text: string, type: string) => {
+  const copyToClipboard = (text, type) => {
     navigator.clipboard.writeText(text);
     setCopiedText(type);
     setTimeout(() => setCopiedText(''), 2000);
@@ -78,7 +78,7 @@ const copyToClipboard = (text: string, type: string) => {
            <h1 className="text-4xl md:text-5xl font-black mb-6 tracking-tight">
                 KENNETH
                 <br />
-                <span className="text-outline font-light italic">RIVERA</span>
+                <span className="text-serif">RIVERA</span>
               </h1>
             </motion.div>
             
