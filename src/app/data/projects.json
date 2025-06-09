@@ -13,7 +13,7 @@
   },
   {
     "title": "Angeles City CSWDO CMS Website",
-    "description": "Productivity app with drag-and-drop functionality",
+    "description": "A website for the City Social Welfare and Development Office of Angeles City, Philippines, built to manage and display social welfare data accross different barangays",
     "tech": ["C#", "php", "HTML", "CSS", "JavaScript", "MySQL"],
     "githubUrl": "",
     "imageUrls": ["/images/c1.png", "/images/c2.png", "/images/c3.png", "/images/c4.png"], 
